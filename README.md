@@ -7,7 +7,7 @@
 
   Calls wallet LP rewards data, which saves a csv file of each token rewarded to  \osmo_profit_tracker\data_files\reward_hist
 
-  Calls combine_price_rewards.py to combine historicle price data by:
+  Calls combine_price_rewards.py to combine historical price data:
 
     -check token name against supported coins
     -calls token_price_df to:
@@ -16,5 +16,5 @@
     -cost basis calculated.
     -saves to .csv file in  \osmo_profit_tracker\data_files\profits\
 
-    configure wallet address through the wallet variable in osmo_profit_main.py
-    check requirements.txt in application_data for library versions 
+  configure wallet address through the wallet variable in osmo_profit_main.py
+  check requirements.txt in application_data for library versions 
