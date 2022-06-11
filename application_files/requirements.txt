@@ -1,0 +1,5 @@
+requests==2.27.1
+pandas==1.4.2
+DateTime==4.4
+
+
